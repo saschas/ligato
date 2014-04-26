@@ -19,6 +19,9 @@ body {
   top: 10px;
   left: 50px; }
 
+.nope {
+  background: #c86432 !important; }
+
 .row {
   float: left; }
 
@@ -50,6 +53,8 @@ body {
     margin: auto; }
     .field .inner:hover {
       background: #678; }
+  .field.choice {
+    background: red; }
   .used .field {
     position: relative;
     box-shadow: inset 0 0 1px 0 #000; }
